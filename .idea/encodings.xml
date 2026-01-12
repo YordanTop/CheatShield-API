@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Feature/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Feature/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth-feature/record-feature/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth-feature/record-feature/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth-feature/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth-feature/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/communication-feature/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/communication-feature/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/email-communication-feature/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/email-communication-feature/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/email-feature/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/email-feature/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitoring-feature/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitoring-feature/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/schedule-feature/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/schedule-feature/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/session-feature/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/session-feature/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/utility/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/utility/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
