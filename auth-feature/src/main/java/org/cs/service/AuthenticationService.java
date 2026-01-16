@@ -14,6 +14,6 @@ public class AuthenticationService implements IAuthenticationService {
 
     @Override
     public boolean checkAuthenticationCodeEmail(UserAuthenticationCodeDTO authCode) {
-
+        return true;
     }
 }

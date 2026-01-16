@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.cs</groupId>
-        <artifactId>core</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <artifactId>cheat-shield</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>auth-feature</artifactId>

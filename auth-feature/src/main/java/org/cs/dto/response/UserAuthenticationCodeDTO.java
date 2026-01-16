@@ -2,16 +2,16 @@ package org.cs.dto.response;
 
 public class UserAuthenticationCodeDTO {
 
-    public String username;
+    public String emailAddress;
 
     public int authCode;
 
-    public String getUsername() {
-        return username;
+    public String getEmailAddress() {
+        return emailAddress;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
     }
 
     public int getAuthCode() {
