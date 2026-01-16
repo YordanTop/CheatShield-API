@@ -5,15 +5,22 @@ import org.cs.service.abstraction.IAuthenticationService;
 import org.cs.service.abstraction.ILoginService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
+@RequestMapping("/login")
 public class LoginController {
 
     private ILoginService loginService;
 
     private IAuthenticationService authenticationService;
 
+    public LoginController(ILoginService loginService, IAuthenticationService authenticationService){
+        this.loginService = loginService;
+        this.authenticationService = authenticationService;
+    }
 
     public void login(UserCredentialDTO userCredential){
 
@@ -25,10 +32,10 @@ public class LoginController {
 
     }
 
-    @GetMapping("/active")
+    @GetMapping("/session-active")
     public boolean isUserSessionActive(@RequestParam String emailAddress){
 
-        return loginService.isUserLoggedIn(emailAddress).isSessionActive;
+        return true;//loginService.isUserLoggedIn(emailAddress).isSessionActive;
 
     }
 

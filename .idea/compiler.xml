@@ -8,10 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="auth-feature" />
         <module name="session-feature" />
+        <module name="email-communication-feature" />
+        <module name="cheat-shield-app" />
+        <module name="monitoring-feature" />
         <module name="schedule-feature" />
         <module name="utility" />
-        <module name="email-communication-feature" />
-        <module name="monitoring-feature" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,16 +20,19 @@
       <module name="email-feature" target="23" />
       <module name="feature" target="23" />
       <module name="record-feature" target="23" />
+      <module name="untitled" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="auth-feature" options="-parameters" />
-      <module name="core" options="-parameters" />
+      <module name="cheat-shield" options="" />
+      <module name="cheat-shield-app" options="-parameters" />
       <module name="email-communication-feature" options="-parameters" />
       <module name="monitoring-feature" options="-parameters" />
       <module name="schedule-feature" options="-parameters" />
       <module name="session-feature" options="-parameters" />
+      <module name="untitled" options="-parameters" />
       <module name="utility" options="-parameters" />
     </option>
   </component>
