@@ -22,7 +22,7 @@
 
         <dependency>
             <groupId>org.cs</groupId>
-            <artifactId>auth-feature</artifactId>
+            <artifactId>data-storage</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

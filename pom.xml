@@ -23,12 +23,7 @@
 	</developers>
 	<modules>
 		<module>cheat-shield-app</module>
-		<module>auth-feature</module>
-		<module>monitoring-feature</module>
-		<module>email-communication-feature</module>
 		<module>utility</module>
-		<module>schedule-feature</module>
-		<module>session-feature</module>
 		<module>data-storage</module>
 
 	</modules>

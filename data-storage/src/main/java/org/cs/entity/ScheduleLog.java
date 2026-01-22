@@ -15,12 +15,6 @@ public class ScheduleLog {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(name = "title")
-    private String title;
-
-    @Column(name = "description")
-    private String description;
-
     @Column(name = "reserved_time")
     private LocalDateTime reservedTime;
 
@@ -30,5 +24,9 @@ public class ScheduleLog {
     @ManyToOne
     @JoinColumn(name = "teacher_id")
     private User teacher;
+
+    @OneToOne
+    @JoinColumn(name = "exam_id")
+    private Exam exam;
 
 }

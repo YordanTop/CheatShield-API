@@ -3,7 +3,7 @@ package org.cs.entity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import org.cs.enums.UserRoles;
+import org.cs.entity.enums.UserRoles;
 
 @Setter
 @Getter
@@ -17,7 +17,7 @@ public class User {
     @Column(name = "username", nullable = false)
     private String username;
 
-    @Column(name = "emailAddress", nullable = false, unique = true)
+    @Column(name = "email_address", nullable = false, unique = true)
     private String emailAddress;
 
     @Column(name = "password", nullable = false)
