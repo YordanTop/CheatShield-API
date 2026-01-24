@@ -38,6 +38,12 @@
             <scope>test</scope>
         </dependency>
 
+        <!--Email driver-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+
         <!--JPA-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

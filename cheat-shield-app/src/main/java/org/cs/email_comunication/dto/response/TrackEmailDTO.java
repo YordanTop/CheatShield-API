@@ -1,14 +1,13 @@
 package org.cs.email_comunication.dto.response;
 
-import java.io.File;
-import java.util.ArrayList;
 
-public class TrackingEmailDTO {
+import java.time.LocalDate;
 
-    private String emailTitle;
 
-    private String isEmailReceived;
-
-    private String emailReceiver;
+public record TrackEmailDTO(String emailTitle,
+                            String receiverAddress,
+                            LocalDate timeOfSending,
+                            String reason,
+                            boolean isEmailReceived) {
 
 }

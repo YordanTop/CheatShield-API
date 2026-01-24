@@ -1,14 +1,18 @@
 package org.cs.email_comunication.utility.validation;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.cs.email_comunication.utility.Email;
 
-public abstract class EmailFilterValidator {
+public abstract class EmailValidator {
 
-    protected EmailFilterValidator nextValidator;
+    protected EmailValidator nextValidator;
 
-    public void setValidator(EmailFilterValidator nextValidator){
-        this.nextValidator = nextValidator;
-    }
+    @Getter
+    @Setter
+    private String validationIssue;
+
 
     public abstract boolean isValid(Email email);
+
 }

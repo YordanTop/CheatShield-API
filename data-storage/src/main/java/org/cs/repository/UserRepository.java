@@ -1,6 +1,11 @@
 package org.cs.repository;
 
+import org.cs.entity.User;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
-public class UserRepository implements CrudRepository {
+
+@Repository
+public interface UserRepository extends CrudRepository<User,Integer> {
+
 }
